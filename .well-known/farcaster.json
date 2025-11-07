@@ -1,19 +1,13 @@
 {
-  "manifest_version": 1,
-  "id": "farcaster-sudoku",
-  "name": "Mini Sudoku",
-  "short_name": "Sudoku",
-  "description": "Play Sudoku directly inside Warpcast — timer, hints, and mobile-friendly gameplay.",
   "version": "1.0.0",
-  "homepage_url": "https://farcaster-sudoku.vercel.app",
-  "icon_url": "https://farcaster-sudoku.vercel.app/og-sudoku.png",
-  "frame": {
-    "url": "https://farcaster-sudoku.vercel.app",
-    "buttons": [
-      { "label": "▶️ Play Sudoku", "action": "post" }
-    ],
-    "image": "https://farcaster-sudoku.vercel.app/og-sudoku.png"
-  },
+  "name": "Mini Sudoku",
+  "iconUrl": "https://farcaster-sudoku.vercel.app/og-sudoku.png",
+  "homeUrl": "https://farcaster-sudoku.vercel.app",
+  "imageUrl": "https://farcaster-sudoku.vercel.app/og-sudoku.png",
+  "buttonTitle": ▶️ Play Sudoku",
+  "splashImageUrl": "https://farcaster-sudoku.vercel.app/og-sudoku.png",
+  "splashBackgroundColor": "#071025",
+  "webhookUrl": "",
   "developer": {
     "name": "nagul",
     "url": "https://warpcast.com/nagul7"
