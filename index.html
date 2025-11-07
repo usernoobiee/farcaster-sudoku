@@ -19,6 +19,26 @@
     <meta property="fc:frame:post_url" content="https://farcaster-sudoku.vercel.app/">
     <!-- hint: make it explicit the page can be framed -->
     <meta property="fc:frame:allow" content="in_app,fullscreen">
+    <!-- Page-level Mini App Embed (stringified JSON) - required for reliable in-app launch -->
+    <meta name="fc:miniapp" content='{
+  "version":"1",
+  "imageUrl":"https://farcaster-sudoku.vercel.app/og-sudoku.png",
+  "button": {
+    "title":"Play Sudoku",
+    "action": {
+      "type":"launch_miniapp",
+      "name":"Mini Sudoku",
+      "url":"https://farcaster-sudoku.vercel.app"
+    }
+  },
+  "splash": {
+    "imageUrl":"https://farcaster-sudoku.vercel.app/og-sudoku.png",
+    "backgroundColor":"#071025"
+  }
+}' />
+
+    <!-- Frame embed JSON as alternative (stringified) for backward compatibility -->
+    <meta name="fc:frame" content='{"version":"1","imageUrl":"https://farcaster-sudoku.vercel.app/og-sudoku.png","button":{"title":"Play Sudoku","action":{"type":"launch_miniapp","url":"https://farcaster-sudoku.vercel.app"}},"allow":["in_app","fullscreen"]}' />
 
 
     <title>Mini Sudoku — Farcaster Frame</title>
