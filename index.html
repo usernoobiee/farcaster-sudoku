@@ -4,18 +4,22 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-    <!-- ✅ Farcaster Frame meta -->
+    <!-- Farcaster / Warpcast Frame metadata (copy exactly) -->
     <meta property="fc:frame" content="vNext">
     <meta property="og:title" content="Mini Sudoku — Play inside Farcaster">
-    <meta property="og:description" content="Play Sudoku directly inside Warpcast. New game, difficulty, hints, timer, and mobile controls.">
+    <meta property="og:description" content="Play Sudoku directly inside Warpcast — choose difficulty, use hints, and race the timer!">
     <meta property="og:image" content="https://farcaster-sudoku.vercel.app/og-sudoku.png">
     <meta property="og:url" content="https://farcaster-sudoku.vercel.app/">
 
-    <!-- ✅ Required for Farcaster embed -->
+    <!-- Frame behaviour -->
     <meta property="fc:frame:image" content="https://farcaster-sudoku.vercel.app/og-sudoku.png">
     <meta property="fc:frame:button:1" content="▶️ Play Sudoku">
     <meta property="fc:frame:button:1:action" content="post_redirect">
-    <meta property="fc:frame:post_url" content="https://farcaster-sudoku.vercel.app">
+    <meta property="fc:frame:button:1:url" content="https://farcaster-sudoku.vercel.app/">
+    <meta property="fc:frame:post_url" content="https://farcaster-sudoku.vercel.app/">
+    <!-- hint: make it explicit the page can be framed -->
+    <meta property="fc:frame:allow" content="in_app,fullscreen">
+
 
     <title>Mini Sudoku — Farcaster Frame</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
