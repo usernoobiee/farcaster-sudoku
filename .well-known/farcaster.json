@@ -1,0 +1,25 @@
+{
+  "manifest_version": 1,
+  "name": "Mini Sudoku",
+  "short_name": "Sudoku",
+  "description": "Play Mini Sudoku inside Farcaster — new games, hints, timer, mobile friendly.",
+  "version": "1.0.0",
+  "icons": [
+    {
+      "src": "/og-sudoku.png",
+      "sizes": "1200x630",
+      "type": "image/png"
+    }
+  ],
+  "homepage_url": "https://farcaster-sudoku.vercel.app",
+  "frame": {
+    "url": "https://farcaster-sudoku.vercel.app",
+    "image": "https://farcaster-sudoku.vercel.app/og-sudoku.png",
+    "button_text": "▶️ Play Sudoku"
+  },
+  "author": {
+    "name": "nagul",
+    "url": "https://warpcast.com/nagul7"
+  },
+  "categories": ["game", "puzzle", "miniapp"]
+}
