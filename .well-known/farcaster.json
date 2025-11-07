@@ -24,13 +24,13 @@
     "puzzle",
     "miniapp"
   ],
-  {
-    "accountAssociation": {
-      "header": "eyJmaWQiOjY4NDcyMywidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDFhOTdmRjA5YTU5M2YyNWZjQzRFMjdkZjEzREI1QmIzNkVFOTI0ZDEifQ",
-      "payload": "eyJkb21haW4iOiJmYXJjYXN0ZXItc3Vkb2t1LnZlcmNlbC5hcHAifQ",
-      "signature": "7rZinQ1WZvbJC5X9/Ia68s7rylojN/2APd8NbTnNGcBgwHKB8UnL0fBL7eapYzQdiYJ/Rw1GRi/Mx8l7FOI3Ohs="
-    }
-  }
+  "accountAssociation": {
+    "header": "eyJmaWQiOjY4NDcyMywidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDFhOTdmRjA5YTU5M2YyNWZjQzRFMjdkZjEzREI1QmIzNkVFOTI0ZDEifQ",
+    "payload": "eyJkb21haW4iOiJmYXJjYXN0ZXItc3Vkb2t1LnZlcmNlbC5hcHAifQ",
+    "signature": "7rZinQ1WZvbJC5X9/Ia68s7rylojN/2APd8NbTnNGcBgwHKB8UnL0fBL7eapYzQdiYJ/Rw1GRi/Mx8l7FOI3Ohs="
+  },
   "permissions": [],
-  "supportedLocales": ["en"]
+  "supportedLocales": [
+    "en"
+  ]
 }
